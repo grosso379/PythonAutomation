@@ -5,7 +5,7 @@ import shutil
 
 def getPath():
     path = input(
-        r"Press enter for default folder, otherwise input the path of the project folder: ")
+        r"PLease press enter for default folder, otherwise input the path of the project folder: ")
     if path == '':
         path = 'C:\\Users\\Usuario\\myProjects'
     return path
